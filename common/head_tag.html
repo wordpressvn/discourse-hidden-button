@@ -1,4 +1,4 @@
-<script type="text/discourse-plugin" version="0.5">
+<script type="text/discourse-plugin" version="0.8">
 	$(document).ready(function() {
 		let currentLocale = I18n.currentLocale(); 
 		//Configure I18n
@@ -22,6 +22,8 @@
 		  }
 		});
 	});
+</script>
+<script type="text/discourse-plugin" version="0.5">
     const anonExcerpt = ($elem) => {
         const currentUser = api.getCurrentUser();
         const excerpt = $elem.find('#hidden').html();
