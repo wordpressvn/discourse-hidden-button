@@ -1,0 +1,8 @@
+# Added so hidden icon will not be blank. 
+svg_icons: 
+  # hidden icon
+  default: 'brush'
+  type: 'list'
+  list_type: 'compact'
+  # Warn users that they cannot change this settings. 
+  description: "Warning: Do NOT DELETE OR CHANGE!"
