@@ -3,7 +3,6 @@
   "about_url": "https://github.com/wordpressvn/discourse-hidden-button/blob/master/about.json",
   "license_url": "https://github.com/wordpressvn/discourse-hidden-button/blob/master/LICENSE",
   "authors": "COP",
-  "theme_version": "1.0",
+  "theme_version": "1.1",
   "component": true
-  
 }
