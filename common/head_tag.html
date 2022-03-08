@@ -1,4 +1,4 @@
-<script type="text/discourse-plugin" version="0.8">
+<script type="text/discourse-plugin" version="0.5">
 	$(document).ready(function() {
 		let currentLocale = I18n.currentLocale(); 
 		//Configure I18n
@@ -26,7 +26,7 @@
         const currentUser = api.getCurrentUser();
         const excerpt = $elem.find('#hidden').html();
         if(!currentUser) {
-            $elem.html(excerpt + ' <strong style="white-space:nowrap;">( ...login to continue)</strong>');
+            $elem.html(excerpt + ' <strong style="white-space:nowrap;">( Vui lòng đăng nhập để xem tiếp nội dung này ! )</strong>');
         }
     }
     api.decorateCooked(anonExcerpt);
